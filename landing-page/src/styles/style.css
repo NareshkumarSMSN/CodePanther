@@ -109,7 +109,7 @@ body{
     Width:100vw;
     Height:742px;
     top: 1161px;
-    background-image: url('/src/assets/features-image.png');
+    background-image: url('../assets/features-image.png');
 }
 
 .features-text{
@@ -172,7 +172,7 @@ body{
     width: 100vw;
     top: 1905px;
     position: absolute;
-    background-image: url('/src/assets/features-image2.png');
+    background-image: url('../assets/features-image2.png');
 }
 
 .features2-text{
@@ -204,7 +204,7 @@ body{
     width: 100vw;
     top: 2475px;
     position: absolute;
-    background-image: url('/src/assets/features-image3.png');
+    background-image: url('../assets/features-image3.png');
 }
 
 .features3-text{
@@ -220,7 +220,7 @@ body{
     width: 100vw;
     top: 2990px;
     position: absolute;
-    background-image: url('/src/assets/features-image4.png');
+    background-image: url('../assets/features-image4.png');
 }
 
 .features4-text{
