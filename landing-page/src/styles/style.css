@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Body Style */
 body{
     margin: 0;
     padding: 0;
@@ -10,11 +11,8 @@ body{
     display: flex;
     justify-content: center;
 }
-.hero{
-    position: relative;
-    height: 1161px;
-    width: 100vw;
-}
+
+/* Navigation Bar */
 .nav{
     display: flex;
     align-items: center;
@@ -48,6 +46,13 @@ body{
     width: 160px;
     height: 26px;
     margin-left: 340px;
+}
+
+/* Hero Section */
+.hero{
+    position: relative;
+    height: 1161px;
+    width: 100vw;
 }
 
 .hero-image{
@@ -104,7 +109,9 @@ body{
     letter-spacing: 0px;
 }
 
-.features{
+/* Features Section */
+
+.features1{
     position: absolute;
     Width:100vw;
     Height:742px;
@@ -167,6 +174,7 @@ body{
     line-height: 26px;
 }
 
+/* Features 2 Section */
 .features2{
     height: 569px;
     width: 100vw;
@@ -198,7 +206,7 @@ body{
     line-height: 26px;
 }
 
-
+/* Features 3 Section */
 .features3{
     height: 569px;
     width: 100vw;
@@ -214,6 +222,9 @@ body{
     left: 199px;
     top: 120px;
 }
+
+
+/* Features 4 Section */
 
 .features4{
     height: 569px;
@@ -242,6 +253,8 @@ body{
     letter-spacing: 0px;
     border-radius: 2px;
 }
+
+/* Footer Section */
 
 .footer{
     height: 938px;
@@ -406,6 +419,9 @@ body{
 .menu{
     display: none;
 }
+
+
+/* Mobile View Section */
 
 @media only screen and (max-width: 850px) {
     .nav-ul{
